@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav menu items */
+.navbar-toggler, .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+/* Header */
+.hero-image {
+    background: url(../images/white-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    
+    .hero-image {
+        min-height: 90vh;
+    }
+
+}
