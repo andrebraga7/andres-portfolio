@@ -5,12 +5,14 @@ body {
 }
 
 /* Nav menu items */
+
 .navbar-toggler, .navbar-toggler:focus {
     border: none;
     box-shadow: none;
 }
 
 /* Header */
+
 .hero-image {
     background: url(../images/white-bg.jpg);
     background-position: center;
@@ -19,11 +21,73 @@ body {
     min-height: 50vh;
 }
 
+.title {
+    color: #003060;
+}
+
+.btn-primary {
+    background-color: #003060;
+    border: none;
+    border-radius: 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #003060;
+    color: white;
+    min-height: 30vh;
+}
+
+footer .row {
+    padding: 40px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.cv-pdf {
+    color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf:hover {
+    color: gold;
+}
+
+footer ul li a i {
+    background-color: lightskyblue;
+    height: 48px;
+    width: 48px;
+    padding: 11px 0;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer ul li a i:hover {
+    background-color: gold;
+}
+
+
 /* Media queries */
+
 @media screen and (min-width: 768px) {
     
     .hero-image {
-        min-height: 90vh;
+        min-height: 70vh;
     }
 
 }
