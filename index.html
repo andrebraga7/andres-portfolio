@@ -60,7 +60,13 @@
     </header>
 
     <main>
-        MAIN SECTION
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="container-fluid">
@@ -92,5 +98,10 @@
     
     <!-- font awsome script-->
     <script src="https://kit.fontawesome.com/cc815c4944.js" crossorigin="anonymous"></script>
+
+    <!-- Google Maps API and initMap function -->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbDAV0Rs1JKIQoDqJBtpteIhEmIBBEsO8&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 </html>
